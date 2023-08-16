@@ -1,1 +1,1 @@
-# LAMP
+# Linux + Apache + MYSQL + PHPmyadmin
