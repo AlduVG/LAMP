@@ -38,10 +38,6 @@ Putty.
 <p align="center"> 
   
   ![checarapache](https://github.com/AlduVG/LAMP/assets/131760637/4215329c-d7af-499a-a013-636d9746e668)</p>
-<p align="center"> 
-  
-  ![Apache conf2Edit](https://github.com/AlduVG/LAMP/assets/131760637/672e3b72-7f02-4280-9bc2-67f846ec27ae)
-</p>  
 
 ## Installing MySQL.
   <p align="center">
@@ -55,25 +51,26 @@ Putty.
 <p align="center">
   
   ![PHPInstall](https://github.com/AlduVG/LAMP/assets/131760637/fe9f0ee0-c71c-4888-89c5-42cdfea61ff9)</p>
+    <p align="center">
   
-<p align="center">
+  ![info PHP](https://github.com/AlduVG/LAMP/assets/131760637/6e535b1c-9360-46fa-abdd-ae2b92288c92)</p>
+  <p align="center">
   
   ![PHPinfoBrowser](https://github.com/AlduVG/LAMP/assets/131760637/195a1aef-53e9-4c88-89d0-846d578d427a)</p>
   <p align="center">
   
   ![rmPHPinfo](https://github.com/AlduVG/LAMP/assets/131760637/a1381cad-83d0-43c9-8c91-8fc9451c9c10)</p>
-  <p align="center">
-  
-  ![info PHP](https://github.com/AlduVG/LAMP/assets/131760637/6e535b1c-9360-46fa-abdd-ae2b92288c92)</p>
 ## Installing PHPmyadmin.
 <p align="center">
   
-  ![phpmyadmin](https://github.com/AlduVG/LAMP/assets/131760637/cdd5fd49-d544-4ca6-bfbf-9d073037187f)</p>
+  ![PHPmyadmininstall1](https://github.com/AlduVG/LAMP/assets/131760637/5e0d8d39-a1f1-4651-8f76-ba801512e49e)</p>
+<p align="center"> 
+  
+  ![Apache conf2Edit](https://github.com/AlduVG/LAMP/assets/131760637/672e3b72-7f02-4280-9bc2-67f846ec27ae)
+</p>  
 <p align="center">
   
-  ![PHPmyadmininstall1](https://github.com/AlduVG/LAMP/assets/131760637/5e0d8d39-a1f1-4651-8f76-ba801512e49e)</p>
-
-
+  ![phpmyadmin](https://github.com/AlduVG/LAMP/assets/131760637/cdd5fd49-d544-4ca6-bfbf-9d073037187f)</p>
 
 
 
