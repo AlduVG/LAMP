@@ -10,22 +10,22 @@ Putty.
 ## Static IP address and SSH
 <p align="center">
   
+  ![netwoorkManager](https://github.com/AlduVG/LAMP/assets/131760637/eaab4ba2-723f-4e37-a10e-6294ace0d246)</p> 
+<p align="center">
+  
+  ![networkmanager](https://github.com/AlduVG/LAMP/assets/131760637/bb927f21-bc6d-4367-8783-66c834952456)</p>
+<p align="center">
+  
+  ![ifconfig](https://github.com/AlduVG/LAMP/assets/131760637/2e3cfa16-5dea-4215-a7ec-a8a0e1fe7a60)</p>   
+<p align="center">
+  
+  ![ping](https://github.com/AlduVG/LAMP/assets/131760637/4ceec0ba-97b8-42b0-9b7f-d9175bdd78b8)</p>
+<p align="center">
+  
+  ![putty](https://github.com/AlduVG/LAMP/assets/131760637/a34ee77b-0820-4aec-bebd-8edbb2fed872)</p>    
+<p align="center">
+  
   ![connectingtoourhost](https://github.com/AlduVG/LAMP/assets/131760637/48483b35-fd87-4cd9-9bab-869f7778a926)</p>
-<p align="center">
-  
-  ![ping](https://github.com/AlduVG/LAMP/assets/131760637/4ceec0ba-97b8-42b0-9b7f-d9175bdd78b8)</p>  
-<p align="center">
-  
-  ![netwoorkManager](https://github.com/AlduVG/LAMP/assets/131760637/eaab4ba2-723f-4e37-a10e-6294ace0d246)</p>  
-<p align="center">
-  
-  ![putty](https://github.com/AlduVG/LAMP/assets/131760637/a34ee77b-0820-4aec-bebd-8edbb2fed872)</p>  
-<p align="center">
-  
-  ![networkmanager](https://github.com/AlduVG/LAMP/assets/131760637/bb927f21-bc6d-4367-8783-66c834952456)</p>  
-<p align="center">
-  
-  ![ifconfig](https://github.com/AlduVG/LAMP/assets/131760637/2e3cfa16-5dea-4215-a7ec-a8a0e1fe7a60)</p>  
 ## Installing Apache.
 <p align="center">
   
