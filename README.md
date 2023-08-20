@@ -1,13 +1,21 @@
-# Linux + Apache + MYSQL + PHPmyadmin
+# Linux + Apache + MYSQL + PHP
 
 Welcome! In this project, I'll guide you through the process of setting up a LAMP stack using Virtual Box.
 
 Prerequisites:
-Latest Ubuntu version.
+Latest Ubuntu version (Ubuntu 22.04.1 was used for this project).
 Any virtualization tool (Oracle VM Virtual Box was used in this project).
 Putty.
 
-## Static IP address and SSH
+## Setting up Virtual Box and Ubuntu install.
+I've allocated 2 GB of RAM and 20 GB of disk space to our virtual machine to ensure it has enough resources to run our LAMP server efficiently.
+Now that we have our configuration set, let's proceed to install the operating system on our virtual machine. In this case, we'll be using Ubuntu, a widely used Linux distribution that is compatible with our LAMP stack.
+
+Let's start up VirtualBox and create a new virtual machine.
+Download the Ubuntu ISO image and select it as the installation medium.
+Follow the standard Ubuntu installation instructions.
+
+## Static IP address and SSH.
 <p align="center">
   
   ![netwoorkManager](https://github.com/AlduVG/LAMP/assets/131760637/eaab4ba2-723f-4e37-a10e-6294ace0d246)</p> 
