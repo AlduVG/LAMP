@@ -104,30 +104,60 @@ Next, we'll return to our virtual machine and open our web browser. We'll enter 
   ![checarapache](https://github.com/AlduVG/LAMP/assets/131760637/4215329c-d7af-499a-a013-636d9746e668)</p>
 
 ## Installing MySQL.
+
+Installing MySQL will also be a straightforward process. We will use the following command to install it:
+
+**sudo apt install mysql-server**
   <p align="center">
     
   ![InstallingMySQL](https://github.com/AlduVG/LAMP/assets/131760637/2c8c3dce-b0e8-4593-82bc-721e178fc14a)</p>
+
+To check the status of MySQL:
+
+**sudo systemctl status mysql**  
+
  <p align="center">
   
   ![StatusCheckMySQL](https://github.com/AlduVG/LAMP/assets/131760637/aca7fddb-3d40-4c94-b472-d08f4ce5de7a)</p> 
 ## Installing PHP.
+To install PHP, we will use the following command:
 
+**sudo apt install php libapache2-mod-php php-mysql php-cli php-json php-common php-mbstring php-zip php-gd**
+      
 <p align="center">
   
   ![PHPInstall](https://github.com/AlduVG/LAMP/assets/131760637/fe9f0ee0-c71c-4888-89c5-42cdfea61ff9)</p>
-    <p align="center">
-  
+
+You can gather information about your PHP server by creating the **"info.php"** file in the **"/var/www/html/"** folder. The **"info.php"** file should contain the following information:
+
+      <?php
+          phpinfo();
+      ?>  
+    
+  <p align="center">
+
   ![info PHP](https://github.com/AlduVG/LAMP/assets/131760637/6e535b1c-9360-46fa-abdd-ae2b92288c92)</p>
   <p align="center">
-  
-  ![PHPinfoBrowser](https://github.com/AlduVG/LAMP/assets/131760637/195a1aef-53e9-4c88-89d0-846d578d427a)</p>
-  <p align="center">
-  
+
+Remember that creating a "info.php" file can be useful for obtaining details about your PHP installation, but it's important to be cautious with any sensitive information that might be exposed. It's recommended to remove or secure the "info.php" file once you've obtained the necessary information. We can use following command to delete this file:
+
+**sudo rm info.php**
+
   ![rmPHPinfo](https://github.com/AlduVG/LAMP/assets/131760637/a1381cad-83d0-43c9-8c91-8fc9451c9c10)</p>
 ## Installing PHPmyadmin.
+To install phpMyAdmin, we will use the following command:
+
+**sudo apt install phpmyadmin**
+
 <p align="center">
   
   ![PHPmyadmininstall1](https://github.com/AlduVG/LAMP/assets/131760637/5e0d8d39-a1f1-4651-8f76-ba801512e49e)</p>
+
+After that, we will proceed to edit the "apache2.conf" file located in "/etc/apache2/apache2.conf" and add the following line:
+
+**Include /etc/phpmyadmin/apache.conf**
+This will include the phpMyAdmin configuration in Apache's configuration file. It allows you to access phpMyAdmin through your web browser.
+  
 <p align="center"> 
   
   ![Apache conf2Edit](https://github.com/AlduVG/LAMP/assets/131760637/672e3b72-7f02-4280-9bc2-67f846ec27ae)
@@ -136,6 +166,13 @@ Next, we'll return to our virtual machine and open our web browser. We'll enter 
   
   ![phpmyadmin](https://github.com/AlduVG/LAMP/assets/131760637/cdd5fd49-d544-4ca6-bfbf-9d073037187f)</p>
 
+Remember to restart the Apache service after making changes to the configuration file:
+
+**sudo systemctl restart apache2**
+  
+Once these steps are completed, you should be able to access phpMyAdmin by navigating to the appropriate URL in your web browser.
+
+Please note that security is important when working with phpMyAdmin. Make sure to follow best practices for securing your phpMyAdmin installation, such as setting up strong passwords, restricting access, and keeping your software up to date
 
 
 
